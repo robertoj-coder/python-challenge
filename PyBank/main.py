@@ -2,9 +2,10 @@ import os
 import csv
 
 
-budget_path = os.path.join("budget_data.csv")
+budget_path = os.path.join("Resources", "budget_data.csv")
+print(budget_path)
 
-with open(budget_path, "r") as csvfile:
+""" with open(budget_path, "r") as csvfile:
 
     csvreader = csv.reader(csvfile, delimiter = ",")
 
@@ -22,7 +23,7 @@ with open(budget_path, "r") as csvfile:
 print("Total months: " + str(months))
 print("Total volume: " + str(totalP))
 
-
+ """
 
 
         
