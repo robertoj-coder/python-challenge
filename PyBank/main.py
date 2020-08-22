@@ -51,6 +51,7 @@ print("Greatest Increase in profit:" + str(monthAverage[profit_change.index(max(
 print("Greatest Decrease in profit:" + str(monthAverage[profit_change.index(min(profit_change))+1]) + " " + "$"+ str(decrease))
 
 # Output a text file
+
 text_file = open("output.txt", "w")
 text_file.write("Financial Analysis" + "\n")
 
