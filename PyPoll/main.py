@@ -49,7 +49,7 @@ for entry in candidateDict:
       winning_count = candidateDict[entry]
       winner = entry  
 print("-"*30)
-print("winner:" + "  "+ winner)
+print("Winner:" + "  "+ winner)
 
 
 
@@ -65,7 +65,7 @@ for entry in candidateDict:
    text_file.write(f"{entry}:  {round(candidateDict[entry]/totalVote*100, 3)} % ({candidateDict[entry]}) \n")
 
 text_file.write("-------------------------" + "\n")
-text_file.write("winner:" + "  "+ winner)  
+text_file.write("Winner:" + "  "+ winner)  
 text_file.close()
 
 
