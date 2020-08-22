@@ -17,7 +17,7 @@ with open(budget_path, "r") as csvfile:
     monthAverage = []
     totalP = 0
     months = 0
-# eliminate the header form the file
+# eliminate the header from the file
     header = next(csvreader)
 #loop through looking for bufget and dates
     for row in csv.reader(csvfile):
