@@ -59,8 +59,8 @@ text_file.write("-------------------------------" + "\n")
 text_file.write("Total months: " + str(months) + "\n")
 text_file.write("Total volume: " "$"  +  str(totalP) + "\n")
 text_file.write("Average Change:" + "$"  +  str(round(average_change, 2)) + "\n")
-text_file.write("Greatest Increase in profit:" + str(monthAverage[profit_change.index(max(profit_change))+1]) + " " + "$"+ str(increase) + "/n")
-text_file.write("Greatest Decrease in profit:" + str(monthAverage[profit_change.index(min(profit_change))+1]) + " " + "$"+ str(decrease) + "/n")
+text_file.write("Greatest Increase in profit:" + str(monthAverage[profit_change.index(max(profit_change))+1]) + " " + "$"+ str(increase) + "\n")
+text_file.write("Greatest Decrease in profit:" + str(monthAverage[profit_change.index(min(profit_change))+1]) + " " + "$"+ str(decrease) + "\n")
 
 text_file.close()
 
